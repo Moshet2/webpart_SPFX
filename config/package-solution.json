@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "moshe-web-part-client-side-solution",
+    "id": "54efc2fc-d27a-4af3-b8ac-9a1999d215b5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Moshe_WebPart description"
+      },
+      "longDescription": {
+        "default": "Moshe_WebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "moshe-web-part Feature",
+        "description": "The feature that activates elements of the moshe-web-part solution.",
+        "id": "f5454867-9614-48b2-898a-42bd630d07c8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/moshe-web-part.sppkg"
+  }
+}
